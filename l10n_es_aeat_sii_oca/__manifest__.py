@@ -48,7 +48,7 @@
         "data/ir_cron.xml",
         "data/aeat_sii_tax_agency_data.xml",
         "views/res_company_view.xml",
-        "views/account_move_views.xml",
+        # "views/account_move_views.xml",
         "wizards/account_move_reversal_views.xml",
         "wizards/account_move_send_sii_views.xml",
         "views/aeat_sii_mapping_registration_keys_view.xml",
