@@ -42,7 +42,7 @@
         "views/report_facturae.xml",
         "wizard/create_facturae_view.xml",
         "wizard/account_move_reversal_view.xml",
-        "views/account_move_view.xml",
+        # "views/account_move_view.xml",
         "views/account_journal_view.xml",
     ],
     "external_dependencies": {"python": ["pycountry", "xmlsig"]},
