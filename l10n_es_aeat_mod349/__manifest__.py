@@ -21,7 +21,7 @@
         "data/aeat_export_mod349_partner_refund_data.xml",
         "data/aeat_export_mod349_partner_data.xml",
         "data/aeat_export_mod349_data.xml",
-        "views/account_move_view.xml",
+        # "views/account_move_view.xml",
         "views/account_tax_view.xml",
         "views/aeat_349_map_view.xml",
         "views/mod349_view.xml",

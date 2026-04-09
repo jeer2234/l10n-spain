@@ -13,7 +13,7 @@
     "depends": ["l10n_es_aeat"],
     "data": [
         "security/ir.model.access.csv",
-        "views/account_move_views.xml",
+        # "views/account_move_views.xml",
         "views/account_tax_views.xml",
         "views/res_company_prorate_views.xml",
         "views/res_company_views.xml",

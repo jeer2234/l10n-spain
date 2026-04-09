@@ -11,7 +11,7 @@
     "data": [
         "security/ir.model.access.csv",
         "views/report_facturae.xml",
-        "views/account_move_view.xml",
+        # "views/account_move_view.xml",
     ],
     "installable": True,
     "maintainers": ["BernatObrador"],

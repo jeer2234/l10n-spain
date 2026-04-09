@@ -10,7 +10,7 @@
     "depends": ["l10n_es_facturae"],
     "data": [
         "views/report_facturae.xml",
-        "views/account_move_view.xml",
+        # "views/account_move_view.xml",
     ],
     "installable": True,
     "maintainers": ["BernatObrador"],

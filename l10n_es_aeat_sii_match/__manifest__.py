@@ -13,7 +13,7 @@
     "depends": ["l10n_es_aeat_sii_oca"],
     "data": [
         "security/ir.model.access.csv",
-        "views/account_move_views.xml",
+        # "views/account_move_views.xml",
         "views/aeat_sii_match_report.xml",
     ],
     "installable": True,

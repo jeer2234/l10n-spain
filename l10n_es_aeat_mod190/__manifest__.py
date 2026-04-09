@@ -26,7 +26,7 @@
         "views/mod190_line_view.xml",
         "views/mod190_view.xml",
         "views/partner_view.xml",
-        "views/account_move_view.xml",
+        # "views/account_move_view.xml",
         "security/ir.model.access.csv",
         "security/l10n_es_aeat_mod190_security.xml",
     ],

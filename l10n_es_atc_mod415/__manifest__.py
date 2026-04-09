@@ -20,7 +20,7 @@
         "data/l10n.es.aeat.map.tax.line.csv",
         "security/ir.model.access.csv",
         "security/mod_415_security.xml",
-        "views/account_move_view.xml",
+        # "views/account_move_view.xml",
         "views/res_partner_view.xml",
         "views/mod415_view.xml",
         "views/report_415_partner.xml",
