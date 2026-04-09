@@ -37,8 +37,8 @@
         "data/2025/aeat.model.export.config.csv",
         "data/2025/aeat.model.export.config.line.csv",
         # rest of stuff
-        "views/mod390_view.xml",
-        "views/account_move_view.xml",
+        # "views/mod390_view.xml",
+        # "views/account_move_view.xml",
         "security/ir.model.access.csv",
         "security/l10n_es_aeat_mod390_security.xml",
     ],
