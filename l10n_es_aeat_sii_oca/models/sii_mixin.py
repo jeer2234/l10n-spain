@@ -45,6 +45,15 @@ class SiiMixin(models.AbstractModel):
     aeat_state = fields.Selection(
         selection_add=SII_STATES,
     )
+    sii_state = fields.Selection(
+        selection=SII_STATES,
+        string="SII send state",
+        readonly=True,
+        copy=False,
+        help="Indicates the state of this document in relation with the "
+        "presentation at the SII",
+    ) #delete luego del upgrade
+
     sii_csv = fields.Char(string="SII CSV", copy=False, readonly=True)
     sii_return = fields.Text(string="SII Return", copy=False, readonly=True)
     sii_refund_type = fields.Selection(
