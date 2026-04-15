@@ -30,6 +30,10 @@ class AccountMove(models.Model):
     _name = "account.move"
     _inherit = ["account.move", "sii.mixin"]
 
+    invoice_jobs_ids = fields.Boolean(
+        string="Connector Jobs",
+    )
+
     def _get_default_type(self):
         context = self.env.context
         return context.get("move_type", context.get("default_move_type"))
