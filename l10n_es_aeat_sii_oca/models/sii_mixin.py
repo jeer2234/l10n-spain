@@ -29,7 +29,19 @@ class SiiMixin(models.AbstractModel):
     _name = "sii.mixin"
     _inherit = "aeat.mixin"
     _description = "SII Mixin"
-
+    #TODO eliminar luego del upgrade estos campos #######################
+    sii_send_error = fields.Text(
+        string="SII Send Error",
+        readonly=True,
+        copy=False,
+    )
+    sii_send_failed = fields.Boolean(
+        string="SII send failed",
+        copy=False,
+        help="Indicates that the last attempt to communicate this document to "
+        "the SII has failed. See SII return for details",
+    )
+    ####################################################################
     company_id = fields.Many2one(
         comodel_name="res.company",
         string="Company",
@@ -97,12 +109,6 @@ class SiiMixin(models.AbstractModel):
         string="Enable SII",
         compute="_compute_sii_enabled",
         search="_search_sii_enabled",
-    )
-    sii_send_failed = fields.Boolean(
-        string="SII send failed",
-        copy=False,
-        help="Indicates that the last attempt to communicate this document to "
-        "the SII has failed. See SII return for details",
     )
     sii_macrodata = fields.Boolean(
         string="MacroData",
