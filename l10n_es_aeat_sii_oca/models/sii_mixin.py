@@ -41,6 +41,11 @@ class SiiMixin(models.AbstractModel):
         help="Indicates that the last attempt to communicate this document to "
         "the SII has failed. See SII return for details",
     )
+    sii_header_sent = fields.Text(
+        string="SII last header sent",
+        copy=False,
+        readonly=True,
+    )
     ####################################################################
     company_id = fields.Many2one(
         comodel_name="res.company",
