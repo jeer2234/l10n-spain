@@ -98,6 +98,12 @@ class SiiMixin(models.AbstractModel):
         compute="_compute_sii_enabled",
         search="_search_sii_enabled",
     )
+    sii_send_failed = fields.Boolean(
+        string="SII send failed",
+        copy=False,
+        help="Indicates that the last attempt to communicate this document to "
+        "the SII has failed. See SII return for details",
+    )
     sii_macrodata = fields.Boolean(
         string="MacroData",
         help="Check to confirm that the document has an absolute amount "
